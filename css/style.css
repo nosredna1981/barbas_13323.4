@@ -10,6 +10,9 @@ body {
 
 #logo img {
     height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border:solid 2px white;
 }
 
 h1 {
@@ -34,7 +37,6 @@ h1 {
     margin: auto;
     padding: 20px;
     width: 15%;
-    
-
-
+    border-radius: 25px;
+    border:solid 2px white
 }

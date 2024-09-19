@@ -1,0 +1,37 @@
+body {
+    background-color: yellow;
+    font-family: sans-serif;
+    font-size: 14pt;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img {
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+.links a {
+
+    font-size: 16pt;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+
+
+}

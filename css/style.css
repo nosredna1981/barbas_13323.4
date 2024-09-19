@@ -28,10 +28,13 @@ h1 {
     text-decoration: none;
     color: white;
     background-color: black;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: auto;
     padding: 20px;
-    width: 80%;
+    width: 50%;
+    
 
 
 }

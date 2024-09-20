@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-image: url(../imagem/barbershop-background.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    min-height: 400px;
+    }

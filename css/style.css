@@ -156,4 +156,7 @@ header{
     .contact-right button:hover {
         background-color: #0056b3;
     }
+    .img {
+        background-image: url(https://maps.app.goo.gl/x1hiymr2N7bDyK1GA);
+    }
     

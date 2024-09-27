@@ -86,9 +86,3 @@ header .logo {
     max-width: 400px;
 }
 
-.container {
-    margin: auto;
-    width: 100%;
-    min-width: 360px;
-    max-width: 1280px;
-}

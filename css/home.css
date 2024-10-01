@@ -82,6 +82,12 @@ header .logo {
     max-width: 400px;
 }
 
-.contact-map{
+/* Area de contato */
+.contact{
+    display: flex;
+}
+.contact-map,
+.contact-form{
     padding: 40px;
+    width: 50%;
 }

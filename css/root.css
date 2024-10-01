@@ -7,6 +7,14 @@
     --font-primary: "nunito";
     --font-secondary: "roboto";
 }
+/*Reset: limpa stilo dos navegadores*/
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Itens comuns no site*/
 .container{
     margin: auto;
     width: 100%;
@@ -15,9 +23,9 @@
 }
 
 .bold{
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .bolder{
-   font-weight: bolder; 
+   font-weight: 900; 
 }

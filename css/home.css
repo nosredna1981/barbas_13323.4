@@ -1,8 +1,4 @@
-* {
-    margin: 0;
-    padding: 0%;
-    box-sizing: border-box;
-}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -86,3 +82,6 @@ header .logo {
     max-width: 400px;
 }
 
+.contact-map{
+    padding: 40px;
+}

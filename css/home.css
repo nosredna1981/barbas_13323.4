@@ -103,4 +103,27 @@ header .logo {
 .form-group textarea{
     padding: 8px;
     width: 100%;
+    border-radius: 8px;
+}
+.form-group button{
+    background-color: var(--black);
+    color: var(--white);
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+.form-group button:hover{
+    background-color: var(--yellow);
+
+}
+.left{
+    /* text-align: left; */
+    /* float: left; */
+    display: flex;
+    justify-content: start;
+}
+.right{
+    /* text-align: right; */
+    /* float: right; */
+    display: flex;
+    justify-content: end; 
 }

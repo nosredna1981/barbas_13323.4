@@ -29,3 +29,7 @@
 .bolder{
    font-weight: 900; 
 }
+a {
+    text-decoration: none;
+    color: var(--black);
+}

@@ -150,10 +150,17 @@ header .logo {
     overflow: hidden;
 /* position: relative; */
 }
-.card img {
+.card-img{
+width: 100%;
+height: 200px;
+}
+
+.card-img img {
+    height: 100%;
     width: 100%;
     display: block;
     margin: auto;
+    object-fit: cover;
 }
 
 .card-content{
@@ -161,7 +168,7 @@ header .logo {
     left: 0; */
     /* position: absolute; */
     width: 100%;
-    height: 100;    
+    height: 100%;    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,12 +184,12 @@ header .logo {
     opacity: 1;
 } */
 .card-content h2 {
-    font-size: 32pt;
+    font-size: 20pt;
     margin-bottom: 15px;
 
 }
 .card-content p {
-    font-size: 18pt;
+    font-size: 12pt;
     margin-bottom: 15px;
     /* padding-left: 17%; */
 }

@@ -10,21 +10,17 @@
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/home.css">
 
+    <script src="./js/main.js" defer></script>
+
 </head>
 
 <body>
 
     <header>
-        <nav class="navbar">
-                <ul class="nav-links">
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="#services">Serviços</a></li>
-                    <li><a href="#about">Sobre Nós</a></li>                    
-                    <li><a href="#contact">Contato</a></li>
-                    <li><a href="login.html">Entrar</a></li>
-                </ul>
-            </nav>
-        <div class="navbox">            
+        
+      <div id="navbar-component"></div>
+
+        <div class="navbox">
             <div class="header-content container">
                 <div class="header-title">
                     <h1>
@@ -145,7 +141,25 @@
         </div>
     </section>
 
-    <section class="bg container" id="contact">
+  
+    <section class="bg-black container" id="about">
+        <section class="menu-container">
+            <div class="menu-itens">
+                <img src="./imagem/barbershop-logo.jpg" alt="img" />
+                <p>comentario.</p>
+            </div>
+            <div class="menu-itens">
+                <img src="./imagem/barbershop-logo.jpg" alt="img" />
+                <p>comentario.</p>
+            </div>
+            <div class="menu-itens">
+                <img src="./imagem/barbershop-logo.jpg" alt="img" />
+                <p>comentario</p>
+            </div>
+        </section>
+
+    </section>
+  <section class="bg container" id="contact">
         <!--yellow container expande-->
         <div class="contact">
             <div class="contact-map">
@@ -208,10 +222,6 @@
         </div>
 
     </section>
-    <section class="bg-black container" id="about">
-
-    </section>
-
 
     <footer>
 

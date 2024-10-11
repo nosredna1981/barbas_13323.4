@@ -87,6 +87,33 @@ header .logo {
     display: flex;
     justify-content: end; 
 }
+ 
+/* área de comentários menu */
+.menu-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1280px;
+    padding: 20px;
+    
+}
+.menu-itens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 15px;
+    width: 33.33%;
+}
+
+.menu-itens img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    border: solid 2px var(--yellow);
+}
 
 /* serviços */
 .card-container {

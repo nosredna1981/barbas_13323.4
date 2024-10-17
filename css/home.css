@@ -178,3 +178,13 @@ height: 200px;
         text-align: center;
     }
 }
+
+@media print {
+    img {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+}

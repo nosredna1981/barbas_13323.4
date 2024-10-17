@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--shadow);
+    background-color: var(--black);
     height: calc(100vh - 72px);
     /* position: relative;
     top: 0; */
@@ -14,7 +14,7 @@
 
 .form-access form {
     width: 300px;
-    border: solid 1px var(--shadow);
+    border: solid 1px var(--black);
     border-radius: 8px;
     background-color: var(--yellow);
     padding: 20px;

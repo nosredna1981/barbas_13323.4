@@ -14,7 +14,7 @@
 
 .form-access form {
     width: 300px;
-    border: solid 1px var(--gray);
+    border: solid 1px var(--shadow);
     border-radius: 8px;
     background-color: var(--yellow);
     padding: 20px;

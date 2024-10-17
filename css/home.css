@@ -165,3 +165,16 @@ height: 200px;
 .card-content:hover>* {
     transform: translateY(0px);
 } */
+
+@media (max-width: 760px) {
+    .header-content {
+        flex-direction: column-reverse;
+    }
+
+    .header-title,
+    .header .logo{
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+}

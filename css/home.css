@@ -1,5 +1,5 @@
 
-
+@import "./form.css";
 
 
 header {
@@ -52,29 +52,6 @@ header .logo {
     width: 50%;
 }
 
-/* form */
-.form-group{
-    width: 100%;
-    padding: 5px;
-    
-}
-.form-group input,
-.form-group select,
-.form-group textarea{
-    padding: 8px;
-    width: 100%;
-    border-radius: 8px;
-}
-.form-group button{
-    background-color: var(--black);
-    color: var(--white);
-    padding: 5px 10px;
-    border-radius: 8px;
-}
-.form-group button:hover{
-    background-color: var(--yellow);
-
-}
 .left{
     /* text-align: left; */
     /* float: left; */

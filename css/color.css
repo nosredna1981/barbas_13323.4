@@ -1,8 +1,9 @@
-.white{
-    color: var(--white)
+
+.yellow{
+    color: var(--yellow)
 }
-.bg-white{
-background-color: var(--white)
+.bg-yellow{
+background-color: var(--yellow)
 }
 
 .black{
@@ -12,9 +13,23 @@ background-color: var(--white)
 background-color: var(--black)
 }
 
-.yellow{
-    color: var(--yellow)
+.white{
+    color: var(--white)
 }
-.bg-yellow{
-background-color: var(--yellow)
+.bg-white{
+background-color: var(--white)
+}
+
+.gray{
+    color: var(--gray)
+}
+.bg-gray{
+background-color: var(--gray)
+}
+
+.shadow{
+    color: var(--shadow)
+}
+.bg-shadow{
+background-color: var(--shadow)
 }

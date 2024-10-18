@@ -184,7 +184,20 @@ height: 200px;
         display: none;
     }
 
-    .contact {
+    /* .contact {
         display: none;
+    } */
+}
+
+@media (max-width:760px) {
+    .contact{
+        flex-direction: column;
     }
+    .contact-map, .contact-form {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+
+    }
+
 }

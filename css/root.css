@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
+    list-style: none;
 }
 
 /* Itens comuns no site*/
@@ -38,4 +39,9 @@ a {
 body {
     font-family: var(--font-size);
     font-family: var(--font-primary);
+    margin-top: 65px;
+    background-image: url(../imagem/bglogin.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: bottom center;
+    background-color: contain;
 }

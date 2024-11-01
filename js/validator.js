@@ -41,7 +41,7 @@ function validateTel() {
     const message = document.querySelector("#telHelp")
 
     element.addEventListener('keyup', (e) => {
-        element.setAttribute('maxlenght', 15)
+        element.setAttribute('maxlenght', '15')
         const value = e.target.value
         const regexTel = /^\([0-9]{2,3}\)\s[0-9]{5}-[0-9]{4}$/g
         let error = ''

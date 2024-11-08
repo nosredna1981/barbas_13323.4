@@ -55,6 +55,7 @@ export function validateTel() {
 export function validatePassword() {
     const element = document.querySelector("#passwordInput")
     const message = document.querySelector("#passwordHelp")
+    if (!element) return
     element.addEventListener('keyup', (e) => {
         const value = e.target.value
         if (value.lenght < 8) {

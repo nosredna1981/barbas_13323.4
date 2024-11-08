@@ -30,7 +30,7 @@ export function validateEmail() {
         // if (value.indexOF('@') === -1 || value.indexOF('.') === -1) {
         const regexEmail = (/^[a-z\d]+\@[a-z]+\.([a-z]{3})+$/g)
         if (!regexEmail.test(value)) {
-            error = "E-mail inválido"
+            error = '<span class="text-danger"> E-mail inválido </span>'
         }
         message.innerHTML = error
     })
@@ -45,7 +45,7 @@ export function validateTel() {
         const regexTel = /^\([0-9]{2,3}\)\s[0-9]{5}-[0-9]{4}$/g
         let error = ''
         if (!regexTel.test(value)) {
-            error = 'Telefone inválido. Formato: "(999) 99999-9999"'
+            error = '<span class="text-danger">Telefone inválido. Formato: "(999) 99999-9999"</span>'
         }
         message.innerHTML = error
         // SetContentElement("#telHelp", error)        
@@ -59,7 +59,7 @@ export function validatePassword() {
     element.addEventListener('keyup', (e) => {
         const value = e.target.value
         if (value.lenght < 8) {
-            menssage.innerHTML = "Senha Muito curta! Minimo de 8 Caracteres"
+            menssage.innerHTML = '<span class="text-danger"> Senha Muito curta! Minimo de 8 Caracteres </span>'
         }else {
             message.innerHTML = ''
         }

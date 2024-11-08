@@ -1,12 +1,9 @@
-validateName()
 validateRequired()
-validateEmail()
-validateTel()
-validatePassword()
 
-function validateName() {
+export function validateName() {
     const element = document.querySelector("#nameInput")
     const message = document.querySelector("#nameHelp")
+    if (!element) return
     element.addEventListener('blur', (e) => {
         const value = e.target.value
         console.log(value)
@@ -22,9 +19,10 @@ function validateName() {
     })
 }
 
-function validateEmail() {
+export function validateEmail() {
     const element = document.querySelector("#emailInput")
     const message = document.querySelector("#emailHelp")
+    if (!element) return
     element.addEventListener('keyup', (e) => {
         const value = e.target.value
         console.log(value)
@@ -37,10 +35,10 @@ function validateEmail() {
         message.innerHTML = error
     })
 }
-function validateTel() {
+export function validateTel() {
     const element = document.querySelector("#telInput")
     const message = document.querySelector("#telHelp")
-
+    if (!element) return
     element.addEventListener('keyup', (e) => {
         element.setAttribute('maxlenght', '15')
         const value = e.target.value
@@ -54,7 +52,7 @@ function validateTel() {
     })
 }
 
-function validatePassword() {
+export function validatePassword() {
     const element = document.querySelector("#passwordInput")
     const message = document.querySelector("#passwordHelp")
     element.addEventListener('keyup', (e) => {

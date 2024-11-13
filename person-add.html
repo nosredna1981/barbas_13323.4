@@ -12,6 +12,8 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/form.css">
+    <link rel="stylesheet" href="./css/person-add.css">
+
 
     <!-- JavaScript -->
     <!-- <script src="./js/validator.js" defer></script> -->
@@ -26,49 +28,50 @@
     <div id="navbar-component"></div>
     <section>
 
-        <form action="" class="bg-yellow container" enctype="multipart/form-data">
-            <h1 class="text-center">Faça seu cadastro</h1>
-            <div class="mb-3">
-                <label for="nameInput" class="form-label">Nome</label>
-                <input type="text" class="form-control" id="nameInput" aria-describedby="nameHelp" name="nome" required>
+        <form action="" class="bg-yellow container p-5" enctype="multipart/form-data">
+            <h1 class="text-center text-custom">Cadastre-se:</h1>
+            <div class="mb-2">
+                <label for="nameInput" class="form-label text-custom">Nome:</label>
+                <input type="text" class="form-control" id="nameInput" aria-describedby="nameHelp" name="nome" required
+                    placeholder="Digite seu Nome">
                 <div id="nameHelp" class="form-text"></div>
             </div>
 
-            <div class="mb-3">
-                <label for="telInput" class="form-label">Telefone</label>
-                <input type="tel" class="form-control" id="telInput" aria-describedby="telHelp" name="telefone"
-                    required>
+            <div class="mb-2">
+                <label for="telInput" class="form-label text-custom">Telefone:</label>
+                <input type="tel" class="form-control" id="telInput" aria-describedby="telHelp" name="telefone" required
+                    placeholder=" Digite o seu Telefone">
                 <div id="telHelp" class="form-text"></div>
             </div>
 
-            <div class="mb-3">
-                <label for="emailInput" class="form-label">E-mail</label>
+            <div class="mb-2">
+                <label for="emailInput" class="form-label text-custom">E-mail:</label>
                 <input type="email" class="form-control" id="emailInput" aria-describedby="emailHelp" name="email"
-                    required>
+                    required placeholder="Digite o Seu E-mail">
                 <div id="emailHelp" class="form-text"></div>
             </div>
 
-            <div class="mb-3">
-                <label for="passwordInput" class="form-label">Senha</label>
+            <div class="mb-2">
+                <label for="passwordInput" class="form-label text-custom">Senha:</label>
                 <input type="password" class="form-control" id="passwordInput" aria-describedby="passwordHelp"
-                    name="password">
+                    name="password" placeholder=" Digite sua Senha">
                 <div id="passwordHelp" class="form-text"></div>
             </div>
 
-            <div class="mb-3">
-                <label for="confPasswordInput" class="form-label">Confirmar senha</label>
+            <div class="mb-2">
+                <label for="confPasswordInput" class="form-label text-custom">Confirme sua Senha:</label>
                 <input type="password" class="form-control" id="confPasswordInput" aria-describedby="confPasswordHelp"
-                    name="confPassword">
+                    name="confPassword" placeholder="Confirme sua Senha">
                 <div id="confPasswordHelp" class="form-text"></div>
             </div>
 
-            <div class="mb-3">
-                <label for="photoInput" class="form-label">Foto</label>
+            <div class="mb-2">
+                <label for="photoInput" class="form-label text-custom">Foto:</label>
                 <input type="file" class="form-control" id="photoInput" aria-describedby="photoHelp" name="photo">
                 <div id="photoHelp" class="form-text"></div>
             </div>
 
-            <div class="my-3">
+            <div class="my-2 form-group flex-row gap-2">
                 <button type="reset">Cancelar</button>
                 <button type="submit">Enviar</button>
             </div>

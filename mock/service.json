@@ -1,0 +1,44 @@
+[
+    {
+        "nome": "Lavagem Curta",
+        "valor": 13.00,
+        "descricao": "Lavagem para cabelos curtos",
+        "fotos": "./imagem/barber-comum.png",
+        "duracao": 2
+    },
+    {
+        "nome": "Lavagem Média",
+        "valor": 20.00,
+        "descricao": "Lavagem para cabelos curtos",
+        "fotos": "./imagem/barber-comum.png",
+        "duracao": 2.5
+    },
+    {
+        "nome": "Lavagem Longa",
+        "valor": 40.00,
+        "descricao": "Lavagem para cabelos curtos",
+        "fotos": "./imagem/barber-comum.png",
+        "duracao": 3
+    },
+    {
+        "nome": "Lavagem Básica",
+        "valor": 18.00,
+        "descricao": "Lavagem para cabelos curtos",
+        "fotos": "./imagem/barber-comum.png",
+        "duracao": 3.5
+    },
+    {
+        "nome": "Lavagem Completa",
+        "valor": 50.00,
+        "descricao": "Lavagem para cabelos curtos",
+        "fotos": "./imagem/barber-comum.png",
+        "duracao": 4
+    },
+    {
+        "nome": "Lavagem Rápida",
+        "valor": 10.00,
+        "descricao": "Lavagem para cabelos curtos",
+        "fotos": "./imagem/barber-comum.png",
+        "duracao": 2.8
+    }
+]

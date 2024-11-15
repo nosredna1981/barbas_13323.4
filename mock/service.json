@@ -1,44 +1,44 @@
 [
     {
-        "nome": "Lavagem Curta",
+        "nome": "Corte Estiloso",
         "valor": 13.00,
-        "descricao": "Lavagem para cabelos curtos",
+        "descricao": "Forma de expressar a personalidade, realcar traços do rosto e acompanhar as últimas tendências da moda masculina",
         "fotos": "./imagem/barber-comum.png",
         "duracao": 2
     },
     {
-        "nome": "Lavagem Média",
+        "nome": "Corte na Régua",
         "valor": 20.00,
-        "descricao": "Lavagem para cabelos curtos",
-        "fotos": "./imagem/barber-comum.png",
+        "descricao": "Forma de expressar a personalidade, realcar traços do rosto e acompanhar as últimas tendências da moda masculina",
+        "fotos": "./imagem/barber-5497152_1280.jpg",
         "duracao": 2.5
     },
     {
-        "nome": "Lavagem Longa",
+        "nome": "Barba & Cabelo",
         "valor": 40.00,
-        "descricao": "Lavagem para cabelos curtos",
-        "fotos": "./imagem/barber-comum.png",
+        "descricao": "Forma de expressar a personalidade, realcar traços do rosto e acompanhar as últimas tendências da moda masculina",
+        "fotos": "./imagem/barber-cabelo.png",
         "duracao": 3
     },
     {
-        "nome": "Lavagem Básica",
+        "nome": "Estilo Vikings",
         "valor": 18.00,
-        "descricao": "Lavagem para cabelos curtos",
-        "fotos": "./imagem/barber-comum.png",
+        "descricao": "Forma de expressar a personalidade, realcar traços do rosto e acompanhar as últimas tendências da moda masculina",
+        "fotos": "./imagem/barber-vikings1.png",
         "duracao": 3.5
     },
     {
-        "nome": "Lavagem Completa",
+        "nome": "Barba, Cabelo & Bigode",
         "valor": 50.00,
-        "descricao": "Lavagem para cabelos curtos",
-        "fotos": "./imagem/barber-comum.png",
+        "descricao": "Forma de expressar a personalidade, realcar traços do rosto e acompanhar as últimas tendências da moda masculina",
+        "fotos": "./imagem/barber-barbacabeloebigode.png",
         "duracao": 4
     },
     {
-        "nome": "Lavagem Rápida",
+        "nome": "Corte Moderno",
         "valor": 10.00,
-        "descricao": "Lavagem para cabelos curtos",
-        "fotos": "./imagem/barber-comum.png",
+        "descricao": "Forma de expressar a personalidade, realcar traços do rosto e acompanhar as últimas tendências da moda masculina",
+        "fotos": "./imagem/barber-moderno.png",
         "duracao": 2.8
     }
 ]

@@ -1,5 +1,6 @@
 import { validateName, validateEmail, validateTel, validatePassword } from '../service/validator.js';
 import { Person } from "../domain/person.js";
+import {personService} from "../service/person.service.js"
 
 validateName()
 validateEmail()
